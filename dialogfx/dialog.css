@@ -1,0 +1,42 @@
+#dialog {
+    -fx-background-color: gray;
+    -fx-background-radius: 10px;
+    -fx-max-width: 300px;
+    -fx-max-height: 200px;
+}
+
+#dialog-title {
+    -fx-font-weight: bold;
+    -fx-background-color: rgba(112, 161, 255,1.0);
+    -fx-background-radius: 10px 10px 0px 0px;
+    -fx-text-fill: white;
+    -fx-pref-width: 300px;
+    -fx-pref-height: 50px;
+}
+
+#dialog-description {
+    -fx-font-weight: bold;
+    -fx-padding: 0px 10px 0px 10px;
+    -fx-background-color: transparent;
+    -fx-text-fill: white;
+    -fx-pref-width: 280px;
+    -fx-pref-height: 100px;
+}
+
+#dialog-button {
+    -fx-font-weight: bold;
+    -fx-background-color: rgba(83, 82, 237,1.0);
+    -fx-padding: 10px;
+    -fx-text-fill: white;
+    -fx-pref-width: 280px;
+    -fx-pref-height: 20px;
+    -fx-alignment: center;
+}
+
+#dialog-button:hover {
+    -fx-background-color: rgba(53, 82, 237,1.0);
+}
+
+#dialog-background {
+    -fx-background-color: rgba(0, 0, 0,0.7);
+}
