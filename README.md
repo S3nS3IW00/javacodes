@@ -1,2 +1,1 @@
-# javacodes
-Java codes
+# JAVA CODES
